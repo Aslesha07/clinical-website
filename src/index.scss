@@ -24,3 +24,12 @@ a {
 .navbar {
   margin-bottom: 0px;
 }
+
+.navbar-header {
+  @media(min-width: 0px) {
+  }
+}
+
+.navbar-inverse {
+  border-radius: 0px;
+}
