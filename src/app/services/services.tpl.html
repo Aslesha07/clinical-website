@@ -1,3 +1,21 @@
-<div class="height-max">
-  {{servicesCtrl.message}}
+<div class="services-wrapper">
+  <div class="panel panel-default panel-body services-panel">
+    <h1 style="/*margin-bottom: 20px; */text-align: center;">
+      Services
+      <!--<span class="label label-default">Services</span>-->
+   </h1>
+    <h3 style="/*margin-bottom: 20px; */text-align: center;">
+      Learn more about the various conditions we treat and services offered.
+    </h3>
+    <div class="btn-group services-btn-group" role="group" aria-label="...">
+      <button type="button" ng-repeat="service in sCtrl.getServicesNames()" class="btn services-btn btn-default">
+        <div class="services-text">{{service}}</div>
+      </button>
+    </div>
+    <div class="panel panel-default panel-body services-desc-panel">
+      <div ng-show="sCtrl.desc !== ''">{{sCtrl.desc}}</div>
+    </div>
+  </div>
 </div>
+
+
