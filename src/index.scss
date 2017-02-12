@@ -75,7 +75,7 @@ a {
 
 .services-wrapper {
   height: 1000px;//650px;
-  padding: 20px 150px 60px 150px;
+  padding: 40px 150px 60px 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,7 +130,7 @@ a {
 //  background-image: none;
 //}
 
-.services-panel {
+.no-border {
   border: none;
 }
 
@@ -152,6 +152,48 @@ a {
   font-weight: bold;
   display: table-cell;
   vertical-align: middle;
+}
+
+.about-wrapper {
+  padding: 5% 20% 5% 10%;
+  //padding: 70px 350px 70px 200px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #4a9bac;
+}
+
+.about-header {
+  text-align: center;
+
+  .heading {
+    font-size: 50px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    color: #fefefe;
+    //margin-bottom: 5px;
+    font-family: 'Mada', sans-serif;
+  }
+
+  .heading-bottom {
+    margin-bottom: 40px;
+    color: #1d5871;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+}
+
+.about-desc {
+  margin-left: 15px;
+  color: #c8dbe1;
+  font-size: 20px;
+}
+
+.rutu-pic {
+  //border: 5px solid white;
+  //outline: 2px solid black;
+  float: left;
 }
 
 /* RESPONSIVE CSS */
