@@ -49,12 +49,6 @@ a {
   }
 }
 
-.navbar-fixed-top {
-  top: 15px;
-  left: 15px;
-  right: 15px;
-}
-
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -74,7 +68,8 @@ a {
 }
 
 .services-wrapper {
-  height: 1000px;//650px;
+  height: 100%;
+  width: 100%;
   padding: 40px 150px 60px 150px;
   display: flex;
   flex-direction: column;
