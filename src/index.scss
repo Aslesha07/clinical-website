@@ -74,10 +74,10 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #254656;
-  //background-image: url('images/services-background.png');
-  //background-size: 100% 100%;
-  //background-repeat: no-repeat;
+  //background-color: #254656;
+  background-image: url('images/sunset.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .services-btn {
@@ -156,7 +156,7 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #4a9bac;
+  background-color: #54767d;
 }
 
 .about-header {
@@ -189,6 +189,16 @@ a {
   //border: 5px solid white;
   //outline: 2px solid black;
   float: left;
+}
+
+.carousel-inner > .item > img {
+  width:100%;
+  height:750px;
+}
+
+.cover-base {
+  height: 200px;
+  background-color: #406067;
 }
 
 /* RESPONSIVE CSS */

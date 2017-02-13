@@ -27,7 +27,7 @@ function other() {
 }
 
 function images() {
-  return gulp.src(conf.path.src('**/*/*.+(png|jpg|gif|svg)'))
+  return gulp.src(conf.path.src('**/*/*.+(png|jpg|gif|svg|jpeg)'))
     .pipe(imagemin())
     .pipe(gulp.dest(conf.path.tmp()));
 }
