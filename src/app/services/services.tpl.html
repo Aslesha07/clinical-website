@@ -1,5 +1,5 @@
 <div class="services-wrapper">
-  <div class="panel panel-default panel-body no-border">
+  <div class="panel panel-default panel-body no-border services-panel">
     <h1 style="/*margin-bottom: 20px; */text-align: center;">
       Services
       <!--<span class="label label-default">Services</span>-->
@@ -7,15 +7,15 @@
     <h3 style="/*margin-bottom: 20px; */text-align: center;">
       Learn more about the various conditions treated and services offered.
     </h3>
-    <div class="btn-group services-btn-group" role="group" aria-label="...">
+  </div>
+  <div class="wrapper-clone">
+    <span class="btn-group services-btn-group" role="group" aria-label="...">
       <button type="button" ng-repeat="service in sCtrl.getServicesNames()" class="btn services-btn btn-default">
         <div class="services-text">{{service}}</div>
       </button>
-    </div>
-    <div class="panel panel-default panel-body services-desc-panel">
-      <div ng-show="sCtrl.desc !== ''">{{sCtrl.desc}}</div>
-    </div>
+    </span>
   </div>
 </div>
+
 
 

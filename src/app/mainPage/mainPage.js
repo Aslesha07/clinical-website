@@ -5,7 +5,7 @@ angular.module('clinicalWebsite')
       $stateProvider.state('mainPage', {
         url: '/home',
         templateUrl: 'app/mainPage/mainPage.tpl.html',
-        controller: 'mainPageController'
+        controller: 'mainPageController as mainCtrl'
       });
     }
   ]);

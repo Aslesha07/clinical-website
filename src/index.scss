@@ -70,14 +70,52 @@ a {
 .services-wrapper {
   height: 100%;
   width: 100%;
-  padding: 40px 150px 60px 150px;
+  //padding: 80px 150px 60px 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  //background-color: #254656;
-  background-image: url('images/sunset.jpeg');
+  justify-content: center;
+  background-image: url('images/yoga.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.wrapper-clone {
+  @extend .services-wrapper;
+  z-index: 9;
+  position: absolute;
+  background-image: none;
+ // border: 1px solid red;
+}
+
+.no-border {
+  border: none;
+}
+
+.services-panel {
+  height: 75%;
+  width: 800px;
+  opacity: 0.75;
+  background-color: #ecfafb;
+}
+
+.services-btn-group {
+  margin-left: 50px; //centering the button group to compensate for no left margin for buttons
+  height: 500px;
+  width: 700px;
+  z-index: 10;
+  top: 30px;
+}
+
+.services-text {
+  height: 70px;
+  width: 170px;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .services-btn {
@@ -125,32 +163,8 @@ a {
 //  background-image: none;
 //}
 
-.no-border {
-  border: none;
-}
-
-.services-desc-panel {
-  border: none;
-  background-color: rgba(204, 227, 247, 0.38);
-  margin: 0px 40px 20px 30px;
-}
-
-.services-btn-group {
-  margin-left: 50px; //centering the button group to compensate for no left margin for buttons
-  height: 500px;
-  width: 700px;
-}
-
-.services-text {
-  height: 70px;
-  width: 170px;
-  font-weight: bold;
-  display: table-cell;
-  vertical-align: middle;
-}
-
 .about-wrapper {
-  padding: 5% 20% 5% 10%;
+  padding: 8% 20% 5% 10%;
   //padding: 70px 350px 70px 200px;
   height: 100%;
   width: 100%;
