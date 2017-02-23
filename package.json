@@ -63,7 +63,9 @@
     "serve:dist": "gulp serve:dist",
     "test": "gulp test",
     "test:auto": "gulp test:auto",
-    "bower": "bower"
+    "bower": "bower",
+    "heroku-prebuild": "echo stuff before herko install",
+    "heroku-postbuild": "node node_modules/bower/bin/bower install"
   },
   "eslintConfig": {
     "globals": {
@@ -78,5 +80,10 @@
     "extends": [
       "xo-space/esnext"
     ]
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "gzippo": "^0.2.0",
+    "bower": "^1.7.9"
   }
 }
