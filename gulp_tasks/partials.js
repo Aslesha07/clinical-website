@@ -10,7 +10,7 @@ function partials() {
   return gulp.src(conf.path.src('app/**/*.html'))
     .pipe(htmlmin(conf.htmlmin))
     .pipe(angularTemplatecache('templateCacheHtml.js', {
-      module: conf.ngModule,
+      module: 'clinicalWebsite',
       root: 'app'
     }))
     .pipe(gulp.dest(conf.path.tmp()));

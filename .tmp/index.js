@@ -77,7 +77,7 @@ var cov_1pbqir9qhc = function () {
 
 ++cov_1pbqir9qhc.s[0];
 /* eslint linebreak-style: ["error", "unix"]*/
-angular.module('clinicalWebsite', ['ui.router']).config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
+angular.module('clinicalWebsite', ['appTemplateCache', 'ui.router']).config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
   ++cov_1pbqir9qhc.f[0];
   ++cov_1pbqir9qhc.s[1];
 

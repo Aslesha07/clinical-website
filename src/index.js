@@ -1,5 +1,5 @@
 /* eslint linebreak-style: ["error", "unix"]*/
-angular.module('clinicalWebsite', ['ui.router'])
+angular.module('clinicalWebsite', ['appTemplateCache','ui.router'])
   .config([
     '$stateProvider',
     '$urlRouterProvider',
