@@ -60,12 +60,9 @@
   "scripts": {
     "build": "gulp",
     "serve": "gulp serve",
-    "serve:dist": "gulp serve:dist",
     "test": "gulp test",
     "test:auto": "gulp test:auto",
-    "bower": "bower",
-    "heroku-prebuild": "echo stuff before herko install",
-    "heroku-postbuild": "node node_modules/bower/bin/bower install"
+    "bower": "bower"
   },
   "eslintConfig": {
     "globals": {

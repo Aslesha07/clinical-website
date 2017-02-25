@@ -1,5 +1,5 @@
 .idea/
 coverage/
-.tmp/
+dist/
 node_modules/
 bower_components/
