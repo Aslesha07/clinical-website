@@ -2,7 +2,7 @@
 
 var cov_1vw10ogsmx = function () {
   var path = 'C:\\Projects\\clinical-website\\src\\app\\cover\\cover.directive.js',
-      hash = 'd7c6437b10b4cc50069961170b1953a4deb2def0',
+      hash = '897439c0d72033709d70fa74ecbaab92b793600a',
       global = new Function('return this')(),
       gcv = '__coverage__',
       coverageData = {
@@ -14,7 +14,7 @@ var cov_1vw10ogsmx = function () {
           column: 0
         },
         end: {
-          line: 8,
+          line: 15,
           column: 5
         }
       },
@@ -24,8 +24,18 @@ var cov_1vw10ogsmx = function () {
           column: 4
         },
         end: {
-          line: 7,
+          line: 14,
           column: 6
+        }
+      },
+      '2': {
+        start: {
+          line: 9,
+          column: 8
+        },
+        end: {
+          line: 11,
+          column: 10
         }
       }
     },
@@ -48,8 +58,31 @@ var cov_1vw10ogsmx = function () {
             column: 34
           },
           end: {
-            line: 8,
+            line: 15,
             column: 3
+          }
+        }
+      },
+      '1': {
+        name: '(anonymous_1)',
+        decl: {
+          start: {
+            line: 7,
+            column: 12
+          },
+          end: {
+            line: 7,
+            column: 13
+          }
+        },
+        loc: {
+          start: {
+            line: 7,
+            column: 46
+          },
+          end: {
+            line: 13,
+            column: 7
           }
         }
       }
@@ -57,10 +90,12 @@ var cov_1vw10ogsmx = function () {
     branchMap: {},
     s: {
       '0': 0,
-      '1': 0
+      '1': 0,
+      '2': 0
     },
     f: {
-      '0': 0
+      '0': 0,
+      '1': 0
     },
     b: {},
     _coverageSchema: '332fd63041d2c1bcb487cc26dd0d5f7d97098a6c'
@@ -83,6 +118,15 @@ angular.module('clinicalWebsite').directive('cover', function () {
   return {
     restrict: 'E',
     scope: {},
-    templateUrl: 'app/cover/cover.tpl.html'
+    templateUrl: 'app/cover/cover.tpl.html',
+    link: function link($scope, element, attrs) {
+      ++cov_1vw10ogsmx.f[1];
+      ++cov_1vw10ogsmx.s[2];
+
+
+      $('.carousel').carousel({
+        interval: false
+      });
+    } //DOM manipulation
   };
 });

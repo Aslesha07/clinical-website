@@ -2,7 +2,7 @@
 
 var cov_2pxc9ddqu0 = function () {
   var path = 'C:\\Projects\\clinical-website\\src\\app\\contact\\contact.directive.js',
-      hash = '19c019c07b24f91065ff7ba1ec948cb93cdfdb1d',
+      hash = 'cee8122565a4125ee3bbafb616f39be5cdc95f78',
       global = new Function('return this')(),
       gcv = '__coverage__',
       coverageData = {
@@ -14,7 +14,7 @@ var cov_2pxc9ddqu0 = function () {
           column: 0
         },
         end: {
-          line: 12,
+          line: 9,
           column: 5
         }
       },
@@ -24,7 +24,7 @@ var cov_2pxc9ddqu0 = function () {
           column: 4
         },
         end: {
-          line: 11,
+          line: 8,
           column: 6
         }
       }
@@ -48,7 +48,7 @@ var cov_2pxc9ddqu0 = function () {
             column: 36
           },
           end: {
-            line: 12,
+            line: 9,
             column: 3
           }
         }
@@ -82,9 +82,7 @@ angular.module('clinicalWebsite').directive('contact', function () {
 
   return {
     restrict: 'E',
-    scope: {
-      //@ reads the attribute value, = provides two-way binding, & works with functions
-      title: '@' },
+    scope: {},
     templateUrl: 'app/contact/contact.tpl.html',
     controller: 'contactController as cCtrl'
   };

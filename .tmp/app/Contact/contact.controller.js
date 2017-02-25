@@ -2,7 +2,7 @@
 
 var cov_2gcbtseubb = function () {
   var path = 'C:\\Projects\\clinical-website\\src\\app\\contact\\contact.controller.js',
-      hash = 'aa3f375da181345613af829b2461be5cb8be8239',
+      hash = '4fe62e406223b4350cf0a9db9785a6e7bac90759',
       global = new Function('return this')(),
       gcv = '__coverage__',
       coverageData = {
@@ -30,11 +30,11 @@ var cov_2gcbtseubb = function () {
       },
       '2': {
         start: {
-          line: 7,
+          line: 6,
           column: 0
         },
         end: {
-          line: 7,
+          line: 6,
           column: 85
         }
       }
@@ -58,7 +58,7 @@ var cov_2gcbtseubb = function () {
             column: 29
           },
           end: {
-            line: 5,
+            line: 4,
             column: 1
           }
         }
