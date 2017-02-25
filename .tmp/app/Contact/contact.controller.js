@@ -1,12 +1,12 @@
 'use strict';
 
-var cov_1m1j0q49rz = function () {
-  var path = 'C:\\Projects\\clinical-website\\src\\app\\Contact\\contact.controller.js',
-      hash = 'd27cbe882ccaae8d9fe71687465896ee2df0a368',
+var cov_2gcbtseubb = function () {
+  var path = 'C:\\Projects\\clinical-website\\src\\app\\contact\\contact.controller.js',
+      hash = 'aa3f375da181345613af829b2461be5cb8be8239',
       global = new Function('return this')(),
       gcv = '__coverage__',
       coverageData = {
-    path: 'C:\\Projects\\clinical-website\\src\\app\\Contact\\contact.controller.js',
+    path: 'C:\\Projects\\clinical-website\\src\\app\\contact\\contact.controller.js',
     statementMap: {
       '0': {
         start: {
@@ -87,12 +87,12 @@ var cov_1m1j0q49rz = function () {
 }();
 
 function contactController() {
-  ++cov_1m1j0q49rz.f[0];
+  ++cov_2gcbtseubb.f[0];
 
-  var vm = (++cov_1m1j0q49rz.s[0], this);
-  ++cov_1m1j0q49rz.s[1];
+  var vm = (++cov_2gcbtseubb.s[0], this);
+  ++cov_2gcbtseubb.s[1];
   vm.message = 'HELLO WORLD';
 }
 
-++cov_1m1j0q49rz.s[2];
+++cov_2gcbtseubb.s[2];
 angular.module('clinicalWebsite').controller('contactController', contactController);

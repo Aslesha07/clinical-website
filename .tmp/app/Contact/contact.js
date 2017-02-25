@@ -1,12 +1,12 @@
 'use strict';
 
-var cov_w8cvskap4 = function () {
-  var path = 'C:\\Projects\\clinical-website\\src\\app\\Contact\\contact.js',
-      hash = 'e9105109c1c66c616be3e9a3e4238513529c5178',
+var cov_2f4rasi56v = function () {
+  var path = 'C:\\Projects\\clinical-website\\src\\app\\contact\\contact.js',
+      hash = '26d260beaedb6bb9020dea674047abb20a370260',
       global = new Function('return this')(),
       gcv = '__coverage__',
       coverageData = {
-    path: 'C:\\Projects\\clinical-website\\src\\app\\Contact\\contact.js',
+    path: 'C:\\Projects\\clinical-website\\src\\app\\contact\\contact.js',
     statementMap: {
       '0': {
         start: {
@@ -75,10 +75,10 @@ var cov_w8cvskap4 = function () {
   return coverage[path] = coverageData;
 }();
 
-++cov_w8cvskap4.s[0];
+++cov_2f4rasi56v.s[0];
 angular.module('clinicalWebsite').directive('contact', function () {
-  ++cov_w8cvskap4.f[0];
-  ++cov_w8cvskap4.s[1];
+  ++cov_2f4rasi56v.f[0];
+  ++cov_2f4rasi56v.s[1];
 
   return {
     restrict: 'E',
